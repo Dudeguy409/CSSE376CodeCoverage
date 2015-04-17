@@ -63,4 +63,8 @@ public class ServiceLocator {
 	{
 		cars.remove(aCar);	
 	}
+	
+	public void ClearDiscounts(){
+		discounts = new LinkedList<Discount>();
+	}
 }
